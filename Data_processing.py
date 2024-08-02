@@ -130,7 +130,10 @@ while True:
                 print(f"\nThe {num_input} number is not prime!")
                 is_prime = False
                 break
-
+                
+        if not is_prime:
+            break
+            
         if is_prime:
             print(f"\n{num_input} is indeed a prime number!")
             break
